@@ -25,3 +25,10 @@ npm-debug.log*
 
 # Local config
 *.local
+
+# Claude Code local settings
+.claude/
+
+# Windows reserved names (safety)
+nul
+NUL
