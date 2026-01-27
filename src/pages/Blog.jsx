@@ -16,8 +16,8 @@ export default function Blog() {
         </p>
       </div>
 
-      {/* Blog posts placeholder - centered in viewport */}
-      <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-10">
+      {/* Blog posts placeholder - centered */}
+      <div className="flex-1 flex items-center justify-center">
         <div className="text-center">
           <p className="text-muted-foreground text-sm">Coming soon...</p>
           <p className="text-muted-foreground/60 text-xs mt-1">Check back for updates</p>

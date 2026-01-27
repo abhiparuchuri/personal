@@ -27,9 +27,9 @@ export default function Contact() {
         </p>
       </div>
 
-      {/* Contact content - centered in viewport */}
-      <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-10">
-        <div className="text-center max-w-md pointer-events-auto">
+      {/* Contact content - centered */}
+      <div className="flex-1 flex items-center justify-center">
+        <div className="text-center max-w-md">
           <p className="text-muted-foreground text-sm mb-4">
             mailto: <span className="text-primary">sucks</span>, so here's my email
           </p>
