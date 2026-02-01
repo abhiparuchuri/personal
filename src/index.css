@@ -140,6 +140,7 @@
 
 @layer components {
   .glass-card {
+    position: relative;
     background: linear-gradient(135deg, hsl(var(--card) / 0.5) 0%, hsl(var(--card) / 0.3) 100%);
     backdrop-filter: blur(10px);
     border: 1px solid hsl(var(--border) / 0.4);
@@ -148,6 +149,7 @@
   }
 
   .glass-card:hover {
+    z-index: 10;
     background: linear-gradient(135deg, hsl(var(--card) / 0.6) 0%, hsl(var(--card) / 0.4) 100%);
     border-color: hsl(var(--primary) / 0.5);
     box-shadow: 0 10px 30px -10px hsl(var(--primary) / 0.2);
