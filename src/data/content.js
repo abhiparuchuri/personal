@@ -19,7 +19,7 @@ export const resume = {
       company: "Corepoints",
       period: "Jan '26 - Present",
       points: [
-        "Revolutionizing how companies hire AI-proficient talent through AI-native OAs",
+        "Revolutionizing how companies hire AI-proficient talent",
       ],
     },
     {

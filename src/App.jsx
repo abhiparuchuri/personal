@@ -50,7 +50,7 @@ function App() {
       </nav>
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col px-8 lg:px-16 xl:px-24 pt-6 lg:pt-8 pb-4 lg:pb-6 relative z-10 overflow-y-auto lg:overflow-hidden">
+      <div className="flex-1 flex flex-col px-4 lg:px-12 xl:px-20 pt-4 lg:pt-5 pb-3 lg:pb-4 relative z-10 overflow-y-auto lg:overflow-hidden">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
